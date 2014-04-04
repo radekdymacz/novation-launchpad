@@ -360,19 +360,28 @@ var ModernModes =
    [0, 2, 4, 6, 7, 9, 11, 12],  // Lydian
    [0, 2, 4, 5, 7, 9, 11, 12],  // Mixolydian
    [0, 2, 3, 5, 7, 8, 10, 12],  // Aeolian
-   [0, 1, 3, 5, 6, 8, 10, 12]   // Locrian
+   [0, 1, 3, 5, 6, 8, 10, 12],  // Locrian
+   [0, 2, 3, 5, 7, 8, 11, 12],  // Harmonic minor 
+   [0, 2, 3, 4, 7, 9, 12 ],          // Major blues 
+   [0, 3, 5, 6, 7,10, 11, 12],  // Minor blues
+   [0, 2, 4, 6, 8, 10, 12],      //Whole tone
+   [0, 1, 3, 4, 6, 7, 9, 10,12]       //half-whole
 ];
 
 var ModernModesNames =
 [
-  ['Ionian'],
+  ['Ionian / Major'],
   ['Dorian'],
   ['Phrygian'],
   ['Lydian'],
   ['Mixolydian'],
-  ['Aeolian'],
-  ['Locrian']
-
+  ['Aeolian / Minor'],
+  ['Locrian'],
+  ['Harmonic minor'],
+  ['Major blues'],
+  ['Minor blues'],
+  ['Whole tone'],
+  ['Symmetrical Diminished Scale / Half-Whole step ']
 ];
 
 diatonicNoteMap = new NoteMap();
