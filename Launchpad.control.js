@@ -43,6 +43,7 @@ load("launchpad_notemap.js");
 load("launchpad_grid.js");
 load("launchpad_keys.js");
 load("launchpad_step_sequencer.js");
+load("teoria.js");
 
 var activePage = null;
 
